@@ -20,6 +20,8 @@ public class CalculadoraParaJUnit {
         try {
             miRes = miCalculadora.divide();
             System.out.println("División: " + miRes);
+            //linea nueva añadida
+            System.out.println("La división se realizó con éxito.");
         } catch (ArithmeticException e) {
             System.out.println(e);
         }
